@@ -1,34 +1,4 @@
-# File Server with Rocket
-
-This project is a simple file server built with Rust and Rocket framework. It provides REST API endpoints to upload, download, list, and delete files.
-
-## Prerequisites
-
-- Rust and Cargo installed
-- Clone this repository
-
-## Getting Started
-
-### Installation
-
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/your-username/file_server.git
-   cd file_server
-   ```
-
-2. Update `Cargo.toml`:
-
-   ```toml
-   [dependencies]
-   rocket = { version = "0.5.1", features = ["json"] }
-   serde = { version = "1.0", features = ["derive"] }
-   serde_json = "1.0"
-   tokio = { version = "1", features = ["full"] }
-   ```
-
-### Running the Server
+# OneChan Drive
 
 To run the server, use the following command:
 
