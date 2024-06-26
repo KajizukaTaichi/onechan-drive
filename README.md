@@ -1,5 +1,12 @@
 # OneChan Drive
 
+OneChan Drive was born because below story.
+
+- OneDrive causes auto-launched when started up PC.
+- To hinder it, I renamed OneDrive's binary file name to `OneChanDrive.exe` with humor.
+- Hited upon an idea that project to homebrew my original drive. that is this program.
+
+## Usage
 To run the server, use the following command:
 
 ```sh
@@ -18,7 +25,7 @@ The server will start at `http://localhost:8000`.
 - **Example:**
 
   ```sh
-  curl -X POST --data-binary @yourfile.txt http://localhost:8000/upload/yourfile.txt
+  curl -X POST --data-binary @hello.txt http://localhost:8000/upload/hello.txt
   ```
 
 ### Download File
@@ -29,7 +36,7 @@ The server will start at `http://localhost:8000`.
 - **Example:**
 
   ```sh
-  curl -O http://localhost:8000/download/yourfile.txt
+  curl -O http://localhost:8000/download/hello.txt
   ```
 
 ### List Files
@@ -51,18 +58,7 @@ The server will start at `http://localhost:8000`.
 - **Example:**
 
   ```sh
-  curl -X DELETE http://localhost:8000/delete/yourfile.txt
+  curl -X DELETE http://localhost:8000/delete/hello.txt
   ```
 
-## Project Structure
-
-```plaintext
-.
-├── Cargo.toml
-├── src
-│   └── main.rs
-├── upload
-│   └── (uploaded files will be stored here)
-└── README.md
-```
 
