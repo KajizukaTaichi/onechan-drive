@@ -4,7 +4,7 @@ OneChan Drive was born because below story.
 
 - OneDrive causes auto-launched when started up PC.
 - To hinder it, I renamed OneDrive's binary file name to `OneChanDrive.exe` with humor.
-- Hited upon an idea that project to homebrew my original drive. that is this program.
+- I like that name. So I started this project
 
 ## Usage
 To run the server, use the following command:
